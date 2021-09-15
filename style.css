@@ -1,99 +1,94 @@
-html{
-    font-family: Raleway;
-    padding-left: 3%;
-    padding-right: 3%;
+html {
+  font-family: Raleway;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
-h1{
-    font-size: 150%;
+h1 {
+  font-size: 150%;
 }
 
-p{
-    font-size: 100%;
+p {
+  font-size: 100%;
 }
 
-.decorationnone{
-    text-decoration: none;
+.decorationnone {
+  text-decoration: none;
 }
 
-
-
-.flexbetween{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 1%;
-    padding-bottom: 1%;
+.flexbetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 
-.flexaround{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.flexaround {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.flexcentre{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.flexcentre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.sizelien{
-    width: 25%;
-    
+.sizelien {
+  width: 25%;
 }
 
-.colorlien1{
-    color: black;
+.colorlien1 {
+  color: black;
 }
 
-.colorlien2{
-    color: #0065FC;
+.colorlien2 {
+  color: #0065fc;
 }
 
-.sizelogo{
-width: 120px;
-height: 50px;
+.sizelogo {
+  width: 120px;
+  height: 50px;
 }
 
-.flexstart{
-    display: flex;
-    justify-content: flex-start;
+.flexstart {
+  display: flex;
+  justify-content: flex-start;
 }
 
-.iconesize{
-    height: 50px;
-    width: 50px;
-    background-color: #F2F2F2;
-    border-radius: 10px 0 0 10px;
+.iconesize {
+  height: 50px;
+  width: 50px;
+  background-color: #f2f2f2;
+  border-radius: 10px 0 0 10px;
 }
 
-.searchsize{
-    height: 50px;
-    width: 170px;
-    color: black;
+.searchsize {
+  height: 50px;
+  width: 170px;
+  color: black;
 }
 
-.bouton{
-    height: 50px;
-    width: 130px;
-    background-color: #0065FC;
-    color: white;
-    border-radius: 0 10px 10px 0;
-    cursor: pointer;
+.bouton {
+  height: 50px;
+  width: 130px;
+  background-color: #0065fc;
+  color: white;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
 }
 
-input::placeholder{
-    color: black;
-    font-weight: bold;
-    padding-left: 5%;
-    
+input::placeholder {
+  color: black;
+  font-weight: bold;
+  padding-left: 5%;
 }
 
-.sizeInput{
-    height: 50px;
-    border-left: none;
-    border-right: none;
-   border: 0.5px solid #F2F2F2;;
-    
+.sizeInput {
+  height: 50px;
+  border-left: none;
+  border-right: none;
+  border: 0.5px solid #f2f2f2;
 }
