@@ -4,11 +4,6 @@ html{
     padding-right: 3%;
 }
 
-/* Retirer les puces */
-li{
-    list-style-type: none;   
-}
-
 h1{
     font-size: 150%;
 }
@@ -21,10 +16,7 @@ p{
     text-decoration: none;
 }
 
-/*
-.fond{
-    background-color: chartreuse;
-}*/
+
 
 .flexbetween{
     display: flex;
@@ -73,11 +65,12 @@ height: 50px;
     height: 50px;
     width: 50px;
     background-color: #F2F2F2;
+    border-radius: 10px 0 0 10px;
 }
 
 .searchsize{
     height: 50px;
-    width: 177px;
+    width: 170px;
     color: black;
 }
 
@@ -86,9 +79,21 @@ height: 50px;
     width: 130px;
     background-color: #0065FC;
     color: white;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
 }
 
 input::placeholder{
     color: black;
     font-weight: bold;
+    padding-left: 5%;
+    
+}
+
+.sizeInput{
+    height: 50px;
+    border-left: none;
+    border-right: none;
+   border: 0.5px solid #F2F2F2;;
+    
 }

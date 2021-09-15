@@ -1,35 +1,33 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <!--En-tête de la page-->
-        <meta charset="utf-8" />
-        <link rel="stylesheet" href="style.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/f467ee89a8.js" crossorigin="anonymous"></script>
-        <title>Reservia</title>
+    
+<head>
+    
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f467ee89a8.js" crossorigin="anonymous"></script>
+    <title>Reservia</title>
 
-            <div class="fond">
-            <nav>
-                <div class="flexbetween">
-                <div><img class="sizelogo" src="images\logo\Reservia@3x.png" alt="Logo reservia" /></div>
-                
-                <div class="sizelien flexaround">
-                    <div><li ><a class="colorlien2 decorationnone" href="#">Hébergements</a></li></div>
-                    <div><li ><a class="colorlien1 decorationnone" href="#">Activités</a></li></div>
-                    <div><li ><a class="colorlien2 decorationnone" href="#">S'inscrire</a></li></div>
-                </div>
-                </div>
-            </nav>
-            </div>
-        
-        
-    </head>
+</head>
 
-    <body>
-        <!-- Corps de la page-->
-
+<body>
+    <header>            
+                <nav>
+                    <div class="flexbetween">
+                        <div><img class="sizelogo" src="images\logo\Reservia@3x.png" alt="Logo reservia"></div>
+                        
+                        <div class="sizelien flexaround">
+                            <div><a class="colorlien2 decorationnone" href="#">Hébergements</a></div>
+                            <div><a class="colorlien1 decorationnone" href="#">Activités</a></div>
+                            <div><a class="colorlien2 decorationnone" href="#">S'inscrire</a></div>
+                        </div>
+                    </div>
+                </nav>
+            
+    </header>
         <section>
             <div>
                 <h1>Trouvez votre Hébergement pour des vacances de rêve</h1>
@@ -37,7 +35,9 @@
             </div>
             <div class="flexstart">
                 <div class="iconesize flexcentre"><i class="fas fa-map-marker-alt"></i></div>
-                <div class="searchsize flexcentre"><input type="search" placeholder="Marseille,France"></div>
+                <div class="searchsize">
+                    <input class="sizeInput" type="search" placeholder="Marseille,France">
+                </div>
                 <div class="bouton flexcentre">Rechercher</div>
             </div>
         </section>    
@@ -45,5 +45,5 @@
 
 
 
-    </body>  
+</body>  
 </html>
