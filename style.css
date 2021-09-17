@@ -1,5 +1,7 @@
 html {
   font-family: Raleway;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 h1 {
@@ -90,14 +92,20 @@ input::placeholder {
 }
 
 
+
+
+/* CSS FILTRE */
+
 .filtre{
   display: flex;
   align-items: center;
+  
 }
 
 .margefiltre{
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 15px;
+ 
 }
 
 .margefiltretitre{
@@ -111,6 +119,7 @@ input::placeholder {
 }
 
 .filtreicons{
+  margin-left: -2px;
   border-radius: 25px;
   width: 50px;
   height: 50px;
@@ -123,4 +132,33 @@ input::placeholder {
   padding-right: 20px;
   padding-left: 20px;
   border-radius: 0px 25px 25px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.info{
+  height: 50px;
+  width: 450px;
+}
+
+.imginfo{
+  border-radius: 25px;
+  border: 2px solid #f2f2f2;
+  color: #0065fc;
+  height: 20px;
+  width: 20px;
 }
