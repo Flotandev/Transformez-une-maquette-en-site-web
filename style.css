@@ -13,83 +13,83 @@ p {
   font-size: 100%;
 }
 
-.decorationnone {
+.decoration-none {
   text-decoration: none;
 }
 
-.flexbetween {
+.flex-between {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.flexaround {
+.flex-around {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.flexcentre {
+.flex-center {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.flexColumnCentre {
+.flex-Column-Center {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.flexColumnBetween {
+.flex-Column-Between {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.flexColumnAround {
+.flex-Column-Around {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
-.sizelien {
+.size-link {
   width: 25%;
 }
 
-.colorlien1 {
+.color-link1 {
   color: black;
 }
 
-.colorlien2 {
+.color-link2 {
   color: #0065fc;
 }
 
-.sizelogo {
+.size-logo {
   width: 120px;
   height: 50px;
 }
 
-.flexstart {
+.flex-start {
   display: flex;
   justify-content: flex-start;
 }
 
-.iconesize {
+.icon-size {
   height: 50px;
   width: 50px;
   background-color: #f2f2f2;
   border-radius: 10px 0 0 10px;
 }
 
-.searchsize {
+.search-size {
   height: 50px;
   width: 170px;
   color: black;
 }
 
-.bouton {
+.button {
   height: 50px;
   width: 130px;
   background-color: #0065fc;
@@ -104,7 +104,7 @@ input::placeholder {
   padding-left: 5%;
 }
 
-.sizeInput {
+.size-input {
   height: 50px;
   border-left: none;
   border-right: none;
@@ -113,27 +113,27 @@ input::placeholder {
 
 /* CSS FILTRE */
 
-.filtre {
+.filter {
   display: flex;
   align-items: center;
 }
 
-.margefiltre {
+.margin-filter {
   margin-top: 50px;
   margin-bottom: 15px;
 }
 
-.margefiltretitre {
+.margin-filter-title {
   margin-right: 20px;
 }
-.filtretexticons {
+.filter-text-icon {
   border: 2px solid #f2f2f2;
   height: 50px;
   border-radius: 30px;
   margin-right: 20px;
 }
 
-.filtreicons {
+.filter-icon {
   margin-left: -2px;
   border-radius: 25px;
   width: 50px;
@@ -142,7 +142,7 @@ input::placeholder {
   background-color: #deebff;
 }
 
-.filtretext {
+.filter-text {
   height: 50px;
   padding-right: 20px;
   padding-left: 20px;
@@ -154,7 +154,7 @@ input::placeholder {
   width: 450px;
 }
 
-.imginfo {
+.img-info {
   border-radius: 25px;
   border: 2px solid #f2f2f2;
   color: #0065fc;
@@ -162,7 +162,7 @@ input::placeholder {
   width: 20px;
 }
 
-.sizeHebergement {
+.size-hosting {
   flex: 2;
   height: 650px;
   margin-right: 20px;
@@ -170,7 +170,7 @@ input::placeholder {
   background-color: #f2f2f2;
 }
 
-.sizePopulaire {
+.size-popular {
   flex: 1;
   height: 650px;
   margin-left: 20px;
@@ -178,7 +178,7 @@ input::placeholder {
   background-color: #f2f2f2;
 }
 
-.imgHebergements1 {
+.img-hosting1 {
   background-image: url("./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
   background-size: cover;
   background-position: center;
@@ -187,7 +187,7 @@ input::placeholder {
   border-radius: 15px 15px 0px 0px;
 }
 
-.imgHebergements2 {
+.img-hosting2 {
   background-image: url("./images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
   background-size: cover;
   background-position: center;
@@ -196,7 +196,7 @@ input::placeholder {
   border-radius: 15px 15px 0px 0px;
 }
 
-.imgHebergements3 {
+.img-hosting3 {
   background-image: url("./images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
   background-size: cover;
   background-position: center;
@@ -205,7 +205,7 @@ input::placeholder {
   border-radius: 15px 15px 0px 0px;
 }
 
-.imgHebergements4 {
+.img-hosting4 {
   background-image: url("./images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
   background-size: cover;
   background-position: center;
@@ -214,7 +214,7 @@ input::placeholder {
   border-radius: 15px 15px 0px 0px;
 }
 
-.imgHebergements5 {
+.img-hosting5 {
   background-image: url("./images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
   background-size: cover;
   background-position: center;
@@ -223,7 +223,7 @@ input::placeholder {
   border-radius: 15px 15px 0px 0px;
 }
 
-.imgHebergements6 {
+.img-hosting6 {
   background-image: url("./images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
   background-size: cover;
   background-position: center;
@@ -232,7 +232,7 @@ input::placeholder {
   border-radius: 15px 15px 0px 0px;
 }
 
-.blocHebergement {
+.block-hosting {
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -245,34 +245,17 @@ input::placeholder {
   border-radius: 20px;
 }
 
-.colorstar {
+.color-star {
   color: #0065fc;
 }
 
-.colorstar1 {
+.color-star1 {
   color: #f2f2f2;
 }
 
-.espace {
+.space {
   line-height: 5px;
   padding-left: 10px;
 }
 
 
-
-
-
-.container{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.item{
-  height: 100px;
-  width: 250px;
-  border-radius: 20px;
-  background-color: white;
-  margin: 10%;
-}
