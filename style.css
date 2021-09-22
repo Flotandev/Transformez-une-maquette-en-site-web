@@ -36,7 +36,7 @@ p {
   align-items: center;
 }
 
-.flex-column{
+.flex-column {
   display: flex;
   flex-direction: column;
 }
@@ -60,8 +60,6 @@ p {
   justify-content: space-around;
 }
 /* FIN CLASS GLOBAL*/
-
-
 
 .size-link {
   width: 25%;
@@ -171,7 +169,6 @@ input::placeholder {
   width: 20px;
 }
 
-
 /*CSS HOSTING */
 
 .size-hosting {
@@ -270,20 +267,18 @@ input::placeholder {
   padding-left: 10px;
 }
 
-
 /* CSS POPULAR */
 
-.popular-title-icon{
+.popular-title-icon {
   padding: 20px;
 }
-.cube-popular{
+.cube-popular {
   width: 384px;
   height: 140px;
   background-color: white;
   padding: 6px;
   border-radius: 20px;
   margin-bottom: 25px;
-
 }
 
 .img-popular1 {
@@ -313,26 +308,84 @@ input::placeholder {
   border-radius: 15px 0px 0px 15px;
 }
 
-.position-description-popular{
+.position-description-popular {
   padding-right: 80px;
   padding-bottom: 35px;
 }
 
-.position-star-popular{
+.position-star-popular {
   padding-left: 10px;
   padding-bottom: 20px;
 }
 
-.position-description-popular23{
+.position-description-popular23 {
   padding-right: 90px;
   padding-bottom: 35px;
 }
 
-.position-star-popular23{
+.position-star-popular23 {
   padding-left: 10px;
   padding-bottom: 20px;
 }
 
+/* CSS ACTIVITY */
 
+.size-activity {
+  height: 600px;
+  width: 1411px;
+}
 
+.cube-activity {
+  width: 384px;
+  height: 140px;
+  background-color: white;
+  padding: 6px;
+  border-radius: 20px;
+}
 
+.cube-activity1 {
+  width: 300px;
+  height: 450px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #0000002e;
+}
+
+.cube-activity2 {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #0000002e;
+  margin: 20px;
+}
+
+.img-activity2 {
+  background-image: url("./images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 80%;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.img-activity1 {
+  background-image: url("./images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 90%;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.position-text-activity {
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+/* CSS */
+
+footer {
+  width: 100%;
+  background-color: #f2f2f2;
+}
