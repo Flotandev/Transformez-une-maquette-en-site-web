@@ -262,9 +262,17 @@ input::placeholder {
 
 
 
-.cubePopulaire{
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item{
   height: 100px;
   width: 250px;
   border-radius: 20px;
   background-color: white;
+  margin: 10%;
 }
