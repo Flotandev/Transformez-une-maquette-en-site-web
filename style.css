@@ -1,11 +1,12 @@
 html {
   font-family: Raleway;
-  padding-left: 12%;
-  padding-right: 12%;
+  padding-left: 12.5%;
+  padding-right: 12.5%;
 }
 
 h1 {
   font-size: 150%;
+  font-weight: bold;
 }
 
 p {
@@ -34,20 +35,20 @@ p {
   align-items: center;
 }
 
-.flexColumnCentre{
+.flexColumnCentre {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.flexColumnBetween{
+.flexColumnBetween {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.flexColumnAround{
+.flexColumnAround {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -110,56 +111,50 @@ input::placeholder {
   border: 0.5px solid #f2f2f2;
 }
 
-
-
-
 /* CSS FILTRE */
 
-.filtre{
+.filtre {
   display: flex;
   align-items: center;
-  
 }
 
-.margefiltre{
+.margefiltre {
   margin-top: 50px;
   margin-bottom: 15px;
- 
 }
 
-.margefiltretitre{
+.margefiltretitre {
   margin-right: 20px;
 }
-.filtretexticons{
+.filtretexticons {
   border: 2px solid #f2f2f2;
   height: 50px;
   border-radius: 30px;
   margin-right: 20px;
 }
 
-.filtreicons{
+.filtreicons {
   margin-left: -2px;
   border-radius: 25px;
   width: 50px;
   height: 50px;
   color: #0065fc;
-  background-color: #DEEBFF; 
+  background-color: #deebff;
 }
 
-.filtretext{
+.filtretext {
   height: 50px;
   padding-right: 20px;
   padding-left: 20px;
   border-radius: 0px 25px 25px 0px;
 }
 
-
-.info{
+.info {
   height: 50px;
   width: 450px;
 }
 
-.imginfo{
+.imginfo {
   border-radius: 25px;
   border: 2px solid #f2f2f2;
   color: #0065fc;
@@ -167,27 +162,23 @@ input::placeholder {
   width: 20px;
 }
 
-
-
-
-.sizeHebergement{
+.sizeHebergement {
   flex: 2;
   height: 650px;
   margin-right: 20px;
-  border-radius: 10px;
+  border-radius: 20px;
   background-color: #f2f2f2;
 }
 
-.sizePopulaire{
+.sizePopulaire {
   flex: 1;
   height: 650px;
   margin-left: 20px;
-  border-radius: 10px;
+  border-radius: 20px;
   background-color: #f2f2f2;
 }
 
-
-.imgHebergements1{
+.imgHebergements1 {
   background-image: url("./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
   background-size: cover;
   background-position: center;
@@ -196,7 +187,7 @@ input::placeholder {
   border-radius: 15px 15px 0px 0px;
 }
 
-.imgHebergements2{
+.imgHebergements2 {
   background-image: url("./images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
   background-size: cover;
   background-position: center;
@@ -205,7 +196,7 @@ input::placeholder {
   border-radius: 15px 15px 0px 0px;
 }
 
-.imgHebergements3{
+.imgHebergements3 {
   background-image: url("./images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
   background-size: cover;
   background-position: center;
@@ -214,7 +205,7 @@ input::placeholder {
   border-radius: 15px 15px 0px 0px;
 }
 
-.imgHebergements4{
+.imgHebergements4 {
   background-image: url("./images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
   background-size: cover;
   background-position: center;
@@ -223,7 +214,7 @@ input::placeholder {
   border-radius: 15px 15px 0px 0px;
 }
 
-.imgHebergements5{
+.imgHebergements5 {
   background-image: url("./images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
   background-size: cover;
   background-position: center;
@@ -232,7 +223,7 @@ input::placeholder {
   border-radius: 15px 15px 0px 0px;
 }
 
-.imgHebergements6{
+.imgHebergements6 {
   background-image: url("./images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
   background-size: cover;
   background-position: center;
@@ -241,28 +232,39 @@ input::placeholder {
   border-radius: 15px 15px 0px 0px;
 }
 
-.blocHebergement{
+.blocHebergement {
   padding-left: 20px;
   padding-right: 20px;
-
 }
 
-.cubehebergement{
-  width: 30%;
-  height: auto;
+.cubehebergement {
+  width: 250px;
+  height: 210px;
   background-color: white;
-  padding: 1%;
+  padding: 6px;
   border-radius: 20px;
 }
 
-.bloc1{
-  padding-bottom: 20px;
-}
-
-.colorstar{
+.colorstar {
   color: #0065fc;
 }
 
-.colorstar1{
+.colorstar1 {
   color: #f2f2f2;
+}
+
+.espace {
+  line-height: 5px;
+  padding-left: 10px;
+}
+
+
+
+
+
+.cubePopulaire{
+  height: 100px;
+  width: 250px;
+  border-radius: 20px;
+  background-color: white;
 }
