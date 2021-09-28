@@ -1,15 +1,14 @@
-html {
-  font-family: Raleway;
-}
+
 
 body{
   padding-left: 12.5%;
   padding-right: 12.5%;
+  font-family: Raleway
 }
 
 h1 {
-  font-size: 150%;
-  font-weight: bold;
+  font-size: 2em;
+  
 }
 
 a {
@@ -354,10 +353,30 @@ input::placeholder {
 /* CSS ACTIVITY */
 
 .size-activity {
-  height: 100%px;
+  height: 100%;
   width: 100%;
   margin-top: 5%;
+  
 }
+
+@media all and (max-width: 600px)
+{
+
+ 
+    .flex-around {
+     
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    .flex-between {
+      display: flex;
+        flex-direction: column;
+    }
+  }
+  
+
 
 
 .cube-activity1 {
