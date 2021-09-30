@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="petite_resolution.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -20,7 +21,7 @@
           <div>
             <img
               class="size-logo"
-              src="images\logo\Reservia@3x.png"
+              src="img\logo\Reservia.svg"
               alt="Logo reservia"
             />
           </div>
@@ -107,11 +108,11 @@
     </div>
     <div></div>
 
-    <section class="flex-around">
-      <div class="flex-Column-Around size-hosting block-hosting">
-        <h2 id="Hébergements">Hébergement à Marseille</h2>
+    <section id="hosting-popular" class="flex-hosting-popular">
+      <div id="Hosting-Marseille" class="flex-Column-Around-hosting-popular hosting block-hosting">
+        <h2>Hébergement à Marseille</h2>
 
-        <div class="flex-between">
+        <div class="container-hosting">
           <a href="#"> 
           <div class="cubehebergement">
             <div class="img-hosting1"></div>
@@ -163,7 +164,7 @@
           </a>
         </div>
 
-        <div class="flex-between">
+        <div class="container-hosting">
           <a href="#"> 
           <div class="cubehebergement">
             <div class="img-hosting4"></div>
@@ -217,7 +218,7 @@
         <h3>Afficher plus</h3>
       </div>
 
-      <div class="size-popular">
+      <div class="popular">
         <div class="flex-between popular-title-icon">
           <h2>Les plus populaires</h2>
           <i class="fas fa-chart-line fa-lg"></i>
@@ -228,9 +229,8 @@
           <div class="cube-popular flex-between">
             <div class="img-popular1"></div>
             <div>
-              <div class="space position-description-popular">
-                <h3>Hôtel Le soleil du</h3>
-                <h3>matin</h3>
+              <div class="space-popular position-description-popular">
+                <h3>Hôtel Le soleil du matin</h3>
                 <p>Nuit à partir de <strong>128€</strong></p>
               </div>
 
@@ -248,13 +248,12 @@
           <div class="cube-popular flex-between">
             <div class="img-popular2"></div>
             <div>
-              <div class="space position-description-popular23">
-                <h3>Au coeur de l'eau</h3>
-                <h3>Chambres d'hôtes</h3>
+              <div class="space-popular position-description-popular">
+                <h3>Au coeur de l'eau Chambres d'hôtes</h3>
                 <p>Nuit à partir de <strong>71€</strong></p>
               </div>
 
-              <div class="position-star-popular23">
+              <div class="position-star-popular">
                 <i class="fas fa-star color-star"></i>
                 <i class="fas fa-star color-star"></i>
                 <i class="fas fa-star color-star"></i>
@@ -268,13 +267,12 @@
           <div class="cube-popular flex-between">
             <div class="img-popular3"></div>
             <div>
-              <div class="space position-description-popular23">
-                <h3>Hôtel Tout bleu et</h3>
-                <h3>Blanc</h3>
+              <div class="space-popular position-description-popular">
+                <h3>Hôtel Tout bleu et Blanc</h3>
                 <p>Nuit à partir de <strong>68€</strong></p>
               </div>
 
-              <div class="position-star-popular23">
+              <div class="position-star-popular">
                 <i class="fas fa-star color-star"></i>
                 <i class="fas fa-star color-star"></i>
                 <i class="fas fa-star color-star"></i>
@@ -290,7 +288,7 @@
 
     <section class="size-activity">
       <h2 id="Activités">Activités à Marseille</h2>
-      <div class="flex-around">
+      <div class="container-activity">
         <a href="#"> 
         <div>
           <div class="cube-activity1">        
@@ -344,7 +342,7 @@
       </div>
     </section>
 
-    <footer class="flex-around">
+    <footer class="footer flex-around">
       <div>
         <h3>A propos</h3>
         <h4>Fonctionnement du site</h4>

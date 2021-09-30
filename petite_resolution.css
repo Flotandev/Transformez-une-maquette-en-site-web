@@ -1,0 +1,151 @@
+@media screen and (max-width: 768px) {
+
+  body{
+    padding-left: 0px;
+    padding-right: 0px;
+    font-family: Raleway;
+  
+  }
+
+#hosting-popular{
+  flex: none;
+  flex-direction: column-reverse;
+  width: 100%;
+}
+
+.popular {
+  flex: none;
+  width: 100%;
+  margin-left: 0px;
+  border-radius: 20px;
+  background-color: #f2f2f2;
+}
+
+.cube-popular {
+  width: 100%;
+  height: 140px;
+  background-color: white;
+  padding: 6px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+#Hosting-Marseille{
+  display: flex;
+  width: 90%;
+  margin-left: 0px;
+  background-color: white;
+}
+
+.container-hosting {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cubehebergement {
+  width: 450px;
+  height: 300px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #0000002e;
+  margin: 20px;
+}
+
+.img-hosting1 {
+  background-image: url("./img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 70%;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.img-hosting2 {
+  background-image: url("./img/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 70%;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.img-hosting3 {
+  background-image: url("./img/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 70%;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.img-hosting4 {
+  background-image: url("./img/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 70%;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.img-hosting5 {
+  background-image: url("./img/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 70%;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.img-hosting6 {
+  background-image: url("./img/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 70%;
+  border-radius: 15px 15px 0px 0px;
+}
+
+
+  .container-activity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cube-activity1 {
+    width: 450px;
+    height: 300px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #0000002e;
+    margin: 20px;
+  }
+
+  .cube-activity2 {
+    width: 450px;
+    height: 300px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #0000002e;
+    margin: 20px;
+  }
+
+  .img-activity1 {
+    background-image: url("./img/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 80%;
+    border-radius: 15px 15px 0px 0px;
+  }
+
+  .img-activity4 {
+    background-image: url("./img/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 80%;
+    border-radius: 15px 15px 0px 0px;
+  }
+}
