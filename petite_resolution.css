@@ -7,6 +7,22 @@
   
   }
 
+
+
+  .filter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .phone-filter
+  {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+
+
 #hosting-popular{
   flex: none;
   flex-direction: column-reverse;
@@ -22,13 +38,29 @@
 }
 
 .cube-popular {
-  width: 100%;
+  width: 480px;
   height: 140px;
   background-color: white;
   padding: 6px;
   border-radius: 20px;
   margin-bottom: 20px;
 }
+
+.position-description-popular2 {
+  padding-right: 80px;
+
+}
+
+.img-popular2 {
+  background-image: url("./img/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 45%;
+  height: 100%;
+  border-radius: 15px 0px 0px 15px;
+  
+}
+
 
 #Hosting-Marseille{
   display: flex;

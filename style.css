@@ -1,5 +1,4 @@
 
-
 body{
   padding-left: 12.5%;
   padding-right: 12.5%;
@@ -339,7 +338,7 @@ input::placeholder {
   background-image: url("./img/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
   background-size: cover;
   background-position: center;
-  width: 35%;
+  width: 39%;
   height: 100%;
   border-radius: 15px 0px 0px 15px;
 }
