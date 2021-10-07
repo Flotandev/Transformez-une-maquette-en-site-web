@@ -6,9 +6,10 @@ body{
 
 }
 
+
 h1 {
   font-size: 2em;
-  
+
 }
 
 a {
@@ -131,6 +132,7 @@ input::placeholder {
 .filter {
   display: flex;
   align-items: center;
+  width: 65%;
 }
 
 .filter-text-icon:hover{
@@ -304,6 +306,13 @@ input::placeholder {
 }
 
 /* CSS POPULAR */
+
+.container-popular{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 .space-popular {
   padding-left: 10px;

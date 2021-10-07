@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {  
 
   body{
     padding-left: 0px;
@@ -9,6 +9,17 @@
 
 
 
+  .size-link {
+    width: 100%;
+  }
+
+
+  .margin-filter {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+ 
   .filter {
     display: flex;
     flex-direction: column;
@@ -38,7 +49,6 @@
 }
 
 .cube-popular {
-  width: 480px;
   height: 140px;
   background-color: white;
   padding: 6px;
@@ -76,8 +86,8 @@
 }
 
 .cubehebergement {
-  width: 450px;
-  height: 300px;
+  width: 400px;
+  height: 250px;
   background-color: white;
   border-radius: 20px;
   box-shadow: 0 0 20px #0000002e;
@@ -89,7 +99,7 @@
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 70%;
+  height: 65%;
   border-radius: 15px 15px 0px 0px;
 }
 
@@ -98,7 +108,7 @@
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 70%;
+  height: 65%;
   border-radius: 15px 15px 0px 0px;
 }
 
@@ -107,7 +117,7 @@
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 70%;
+  height: 65%;
   border-radius: 15px 15px 0px 0px;
 }
 
@@ -116,7 +126,7 @@
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 70%;
+  height: 65%;
   border-radius: 15px 15px 0px 0px;
 }
 
@@ -125,7 +135,7 @@
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 70%;
+  height: 65%;
   border-radius: 15px 15px 0px 0px;
 }
 
@@ -134,7 +144,7 @@
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 70%;
+  height: 65%;
   border-radius: 15px 15px 0px 0px;
 }
 
@@ -146,8 +156,8 @@
   }
 
   .cube-activity1 {
-    width: 450px;
-    height: 300px;
+    width: 400px;
+    height: 250px;
     background-color: white;
     border-radius: 20px;
     box-shadow: 0 0 20px #0000002e;
@@ -155,8 +165,8 @@
   }
 
   .cube-activity2 {
-    width: 450px;
-    height: 300px;
+    width: 400px;
+    height: 250px;
     background-color: white;
     border-radius: 20px;
     box-shadow: 0 0 20px #0000002e;
@@ -181,3 +191,27 @@
     border-radius: 15px 15px 0px 0px;
   }
 }
+
+
+.footer {
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+}
+
+.position-footer {
+  margin: 30px;
+
+}
+
+.position-footer1 {
+  padding-bottom: 5px;
+
+}
+.position-footer2 {
+  padding-bottom: 5px;
+
+}
+
+
+
