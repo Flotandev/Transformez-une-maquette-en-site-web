@@ -1,153 +1,166 @@
-@media screen and (max-width: 768px) {  
-
-  body{
+@media screen and (max-width: 768px) {
+  body {
     padding-left: 0px;
     padding-right: 0px;
     font-family: Raleway;
-  
   }
 
+  .nav-flex-between {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
+  .size-nav {
+    height: 100px;
+  }
 
-  .size-link {
+  .size-link-nav {
     width: 100%;
   }
 
+  .border-nav {
+    border-bottom: 3px solid #f2f2f2;
+  }
+
+  .border-nav:hover {
+    border-bottom: 3px solid #0065fc;
+    border-top: none;
+  }
+
+  .size-link {
+    width: 100%;
+    height: 50px;
+  }
 
   .margin-filter {
     margin-top: 0px;
     margin-bottom: 0px;
   }
 
- 
   .filter {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
   }
 
-  .phone-filter
-  {
+  .phone-filter {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
   }
 
+  #hosting-popular {
+    flex: none;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
 
-#hosting-popular{
-  flex: none;
-  flex-direction: column-reverse;
-  width: 100%;
-}
+  .popular {
+    flex: none;
+    width: 100%;
+    margin-left: 0px;
+    border-radius: 20px;
+    background-color: #f2f2f2;
+  }
 
-.popular {
-  flex: none;
-  width: 100%;
-  margin-left: 0px;
-  border-radius: 20px;
-  background-color: #f2f2f2;
-}
+  .cube-popular {
+    height: 140px;
+    background-color: white;
+    padding: 6px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
 
-.cube-popular {
-  height: 140px;
-  background-color: white;
-  padding: 6px;
-  border-radius: 20px;
-  margin-bottom: 20px;
-}
+  .position-description-popular2 {
+    padding-right: 80px;
+  }
 
-.position-description-popular2 {
-  padding-right: 80px;
+  .img-popular2 {
+    background-image: url("./img/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 45%;
+    height: 100%;
+    border-radius: 15px 0px 0px 15px;
+  }
 
-}
+  #Hosting-Marseille {
+    display: flex;
+    width: 90%;
+    margin-left: 0px;
+    background-color: white;
+  }
 
-.img-popular2 {
-  background-image: url("./img/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
-  background-size: cover;
-  background-position: center;
-  width: 45%;
-  height: 100%;
-  border-radius: 15px 0px 0px 15px;
-  
-}
-
-
-#Hosting-Marseille{
-  display: flex;
-  width: 90%;
-  margin-left: 0px;
-  background-color: white;
-}
-
-.container-hosting {
+  .container-hosting {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+  }
 
-.cubehebergement {
-  width: 400px;
-  height: 250px;
-  background-color: white;
-  border-radius: 20px;
-  box-shadow: 0 0 20px #0000002e;
-  margin: 20px;
-}
+  .cubehebergement {
+    width: 400px;
+    height: 250px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #0000002e;
+    margin: 20px;
+  }
 
-.img-hosting1 {
-  background-image: url("./img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 65%;
-  border-radius: 15px 15px 0px 0px;
-}
+  .img-hosting1 {
+    background-image: url("./img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 65%;
+    border-radius: 15px 15px 0px 0px;
+  }
 
-.img-hosting2 {
-  background-image: url("./img/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 65%;
-  border-radius: 15px 15px 0px 0px;
-}
+  .img-hosting2 {
+    background-image: url("./img/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 65%;
+    border-radius: 15px 15px 0px 0px;
+  }
 
-.img-hosting3 {
-  background-image: url("./img/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 65%;
-  border-radius: 15px 15px 0px 0px;
-}
+  .img-hosting3 {
+    background-image: url("./img/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 65%;
+    border-radius: 15px 15px 0px 0px;
+  }
 
-.img-hosting4 {
-  background-image: url("./img/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 65%;
-  border-radius: 15px 15px 0px 0px;
-}
+  .img-hosting4 {
+    background-image: url("./img/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 65%;
+    border-radius: 15px 15px 0px 0px;
+  }
 
-.img-hosting5 {
-  background-image: url("./img/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 65%;
-  border-radius: 15px 15px 0px 0px;
-}
+  .img-hosting5 {
+    background-image: url("./img/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 65%;
+    border-radius: 15px 15px 0px 0px;
+  }
 
-.img-hosting6 {
-  background-image: url("./img/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 65%;
-  border-radius: 15px 15px 0px 0px;
-}
-
+  .img-hosting6 {
+    background-image: url("./img/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 65%;
+    border-radius: 15px 15px 0px 0px;
+  }
 
   .container-activity {
     display: flex;
@@ -192,7 +205,6 @@
   }
 }
 
-
 .footer {
   background-color: #f2f2f2;
   display: flex;
@@ -201,17 +213,11 @@
 
 .position-footer {
   margin: 30px;
-
 }
 
 .position-footer1 {
   padding-bottom: 5px;
-
 }
 .position-footer2 {
   padding-bottom: 5px;
-
 }
-
-
-
