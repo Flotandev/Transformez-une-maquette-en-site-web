@@ -34,6 +34,17 @@
     height: 50px;
   }
 
+  .position-filter {
+    display: flex;
+    align-items: initial;
+  }
+
+  .flex-between-phone {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+
   .margin-filter {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -43,11 +54,35 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    width: 65%;
+  }
+
+  .filter-text-icon-rom {
+    border: 2px solid #f2f2f2;
+    height: 50px;
+    width: 70%;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .filter-icon-rom {
+    border-radius: 25px;
+    width: 30%;
+    height: 50px;
+    color: #0065fc;
+    background-color: #deebff;
+  }
+
+  .filter-text-rom {
+    height: 50px;
+    padding-right: 0px;
+    padding-left: 15px;
+    border-radius: 0px 25px 25px 0px;
   }
 
   .phone-filter {
     display: flex;
-    justify-content: space-around;
     flex-direction: column;
   }
 
@@ -99,7 +134,7 @@
     align-items: center;
   }
 
-  .cubehebergement {
+  .box-hosting {
     width: 400px;
     height: 250px;
     background-color: white;
@@ -207,17 +242,10 @@
 
 .footer {
   background-color: #f2f2f2;
-  display: flex;
-  flex-direction: column;
 }
 
 .position-footer {
-  margin: 30px;
-}
-
-.position-footer1 {
-  padding-bottom: 5px;
-}
-.position-footer2 {
-  padding-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
 }

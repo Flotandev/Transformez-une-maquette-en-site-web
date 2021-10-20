@@ -1,9 +1,8 @@
-body {
+body{
   padding-left: 12.5%;
   padding-right: 12.5%;
   font-family: Raleway;
 }
-
 h1 {
   font-size: 2em;
 }
@@ -80,11 +79,11 @@ p {
 }
 
 .border-nav {
-  border-top: 1px solid transparent;
+  border-top: 3px solid transparent;
 }
 
 .border-nav:hover {
-  border-top: 1px solid #0065fc;
+  border-top: 3px solid #0065fc;
 }
 
 .size-link {
@@ -123,6 +122,11 @@ p {
   color: black;
 }
 
+.position-search {
+  display: flex;
+  justify-content: flex-start;
+}
+
 .button {
   height: 50px;
   width: 130px;
@@ -147,13 +151,30 @@ input::placeholder {
 
 /* CSS FILTRE */
 
+.flex-between-phone {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.position-filter {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .filter {
   display: flex;
   align-items: center;
-  width: 65%;
+  width: 100%;
 }
 
 .filter-text-icon:hover {
+  transform: scale(1.025);
+  background-color: #deebff;
+}
+
+.filter-text-icon-rom:hover {
   transform: scale(1.025);
   background-color: #deebff;
 }
@@ -166,6 +187,30 @@ input::placeholder {
 .margin-filter-title {
   margin-right: 20px;
 }
+
+.filter-text-icon-rom {
+  border: 2px solid #f2f2f2;
+  height: 50px;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+
+.filter-icon-rom {
+  margin-left: -2px;
+  border-radius: 25px;
+  width: 50px;
+  height: 50px;
+  color: #0065fc;
+  background-color: #deebff;
+}
+
+.filter-text-rom {
+  height: 50px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 0px 25px 25px 0px;
+}
+
 .filter-text-icon {
   border: 2px solid #f2f2f2;
   height: 50px;
@@ -298,7 +343,7 @@ input::placeholder {
   padding-right: 20px;
 }
 
-.cubehebergement {
+.box-hosting {
   width: 250px;
   height: 210px;
   background-color: white;
@@ -306,7 +351,7 @@ input::placeholder {
   border-radius: 20px;
 }
 
-.cubehebergement:hover {
+.box-hosting:hover {
   transform: scale(1.025);
 }
 
@@ -314,7 +359,7 @@ input::placeholder {
   color: #0065fc;
 }
 
-.color-star1 {
+.color-star-empty {
   color: #f2f2f2;
 }
 
@@ -500,4 +545,9 @@ input::placeholder {
 
 .footer {
   background-color: #f2f2f2;
+}
+
+.position-footer {
+  display: flex;
+  justify-content: space-around;
 }
