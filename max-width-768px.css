@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   body {
     padding-left: 0px;
     padding-right: 0px;
@@ -32,6 +32,47 @@
   .size-link {
     width: 100%;
     height: 50px;
+  }
+
+  .button {
+    display: none;
+    height: 50px;
+    width: 130px;
+    background-color: #0065fc;
+    color: white;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+  }
+
+  .button-phone {
+    height: 50px;
+    width: 50px;
+    background-color: #0065fc;
+    color: white;
+    border-radius: 15px 15px 15px 15px;
+    cursor: pointer;
+  }
+
+  .search-size {
+    height: 50px;
+    width: 200px;
+    color: black;
+  }
+
+  .size-input {
+    width: 220px;
+    height: 50px;
+    border-left: none;
+    border-right: none;
+    border: 0.5px solid #f2f2f2;
+  }
+
+  .padding-phone {
+    padding-left: 15px;
+  }
+
+  .icon-search-phone {
+    display: flex;
   }
 
   .position-filter {
